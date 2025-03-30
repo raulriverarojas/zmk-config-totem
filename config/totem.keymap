@@ -23,6 +23,7 @@
 #define TVP1 4
 #define TVP2 5
 
+
 &mt {
   quick-tap-ms = <100>;
   global-quick-tap;
@@ -74,7 +75,7 @@
 //         ┃   A   ┃   O   ┃   E   ┃   I   ┃   U   ┃             ┃   D   ┃   H   ┃   T   ┃   N   ┃   S   ┃
 // ┏━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫             ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┓
 // ┃  ESC  ┃  / \  ┃   Q   ┃   J   ┃   L   ┃   X   ┃             ┃   B   ┃   M   ┃   W   ┃   V   ┃   Z   ┃ ENTER ┃
-// ┃  vim  ┃ SHIFT ┃ CTRL  ┃  ALT  ┃  CMD  ┃ R ALT ┃             ┃ R ALT ┃  CMD  ┃  ALT  ┃ CTRL  ┃ SHIFT ┃ keybd ┃
+// ┃       ┃ SHIFT ┃ CTRL  ┃  ALT  ┃  CMD  ┃ R ALT ┃             ┃ R ALT ┃  CMD  ┃  ALT  ┃ CTRL  ┃ SHIFT ┃ keybd ┃
 // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┻━━━━━┳━┻━━━━━┳━┻━━━━━┳━┻━━━━━┓ ┏━━━━━┻━┳━━━━━┻━┳━━━━━┻━┳━━━━━┻━━━━━━━┻━━━━━━━┻━━━━━━━┛
 //                               ┃   {   ┃   (   ┃ SHIFT ┃ ┃ SPACE ┃   )   ┃   }   ┃
 //                               ┃ CTRL  ┃  num  ┃  nav  ┃ ┃  sym  ┃ media ┃  ALT  ┃
@@ -83,8 +84,8 @@
 //              ╷         ╷           ╷          ╷          ╷          ╷   ╷          ╷          ╷          ╷           ╷           ╷      ╷
                  &kp SQT   &kp COMMA        &kp DOT       &kp P      &kp Y          &kp F      &kp G      &kp C      &kp R       &kp K
                  &kp A     &kp O       &kp E      &kp I      &kp U          &kp D      &kp H      &kp T      &kp N       &kp S
-&lt L_VIM ESC    &lt LSHFT SEMI &mt LCTRL Q &mt LALT J &mt LGUI L &mt RALT X     &mt RALT B &mt LGUI M &mt LALT W &mt LCTRL V &mt RSHFT Z &trans
-                 &mt LCTRL LBRC   &lt L_NUM LPAR  &lt L_NAV BSPC            &lt L_SYM SPACE       &lt L_MEDIA RPAR       &mt LALT RBRC
+&lt ESC    &lt LSHFT SEMI &mt LCTRL Q &mt LALT J &mt LGUI L &mt RALT X     &mt RALT B &mt LGUI M &mt LALT W &mt LCTRL V &mt RSHFT Z &trans
+                 &mt LCTRL LBRC   &lt NUM LPAR  &lt NAV BSPC            &lt SYM SPACE       &lt ADJ RPAR       &mt LALT RBRC
             >;
         };
 
