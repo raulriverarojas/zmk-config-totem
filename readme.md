@@ -6,6 +6,7 @@
 
 # ZMK CONFIG FOR THE TOTEM SPLIT KEYBOARD
 
+
 [Here](https://github.com/GEIGEIGEIST/totem) you can find the hardware files and build guide.\
 [Here](https://github.com/GEIGEIGEIST/qmk-config-totem) you can find the QMK config for the TOTEM.
 
